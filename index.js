@@ -1,5 +1,5 @@
 function markAsDone(todos){
- let todos = [];
+ let todos = [animal];
 
   todos.ForEach(function(todo) {
   newTodos.push("done -" + todo);
@@ -9,5 +9,6 @@ function markAsDone(todos){
 }
   
   
+
 
 
