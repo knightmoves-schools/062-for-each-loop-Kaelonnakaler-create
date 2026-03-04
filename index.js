@@ -1,14 +1,15 @@
 function markAsDone(todos){
  let newTodos = [];
 
-  todos.ForEach(function(todo) {
-  newTodos.push("done -" + todo);
+  todos.forEach(function(todo) {
+  newTodos.push("done - " + todo);
   });
 
   return newTodos;
 }
   
   
+
 
 
 
